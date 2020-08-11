@@ -1,7 +1,7 @@
 # projet star-wars
 ## Description du projet
 ### Besoin du client
-je désire créer un site web qui calcule la puissance de feu de diffèrents vaisseaux de l'univers de star wars
+je désire créer un site web qui calcule la difference de taille des vaisseaux et affiche leurs armements
 ### fonctionnalités 
 ``` 
 .Une page qui explique le site
@@ -13,5 +13,5 @@ je désire créer un site web qui calcule la puissance de feu de diffèrents vai
 -Une page web (html, css) de présentation
 -Une page web (html, css, js) de formulaire permettant de traiter les réponses et presentant une interface utilisateur pour :
   -choisir les deux vaisseaux à comparer
-  -afficher le vainqueur et la diffèrence de puissance
+  -afficher la difference de tailles des deux vaisseaux et leurs caractéristiques
 ```
