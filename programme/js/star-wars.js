@@ -43,8 +43,8 @@ function affichage(event){
 		document.getElementById("texte").innerHTML = texteVaisseaux
 	}
 	
-	let differenceTaille = calculTaille (tableauxVaisseaux [choix1][elemen.length], tableauxVaisseaux[choix2][element.length])
-	document.getElementById("taille").innerHTML = "<p> la difference de taille des deux vaisseaux est de : " + differenceTaille + " m </p>"
+	
+	document.getElementById("taille").innerHTML = "<p> la difference de taille des deux vaisseaux est de : " + calculTaille(choix1, choix2) + " m </p>"
 	document.getElementById("reponse1").innerHTML = texteVaisseaux1 + "</p>"
 	document.getElementById("reponse2").innerHTML = texteVaisseaux2 + "</p>"
 	return false
@@ -58,5 +58,6 @@ function calculTaille (vaisseaux1, vaisseaux2){
 	else {
 		diffTaille = tableauxVaisseaux[vaisseaux1].taille - tableauxVaisseaux[vaisseaux2].taille
 	}
+	return diffTaille
 }
 		
