@@ -22,22 +22,19 @@ function affichage(event){
 	let texteVaisseaux2 = "<p>Le second vaisseaux choisi est le " + choix2 + " : " 
 		
 			
-			//let texteVaisseaux1 = "<p>Le premier vaisseaux choisi est le :" + tableauxVaisseaux[element] + " : " 
-			//let texteVaisseaux2 = "<p>Le second vaisseaux choisi est le :" + tableauxVaisseaux[element] + " : " 
+			
 			
 			for (let elemen in tableauxVaisseaux[choix1]) {
 				texteVaisseaux1 += `${elemen} : ${tableauxVaisseaux[choix1][elemen]}  `
 			}
 				
-				//let texteVaisseaux1 = "<p>Le premier vaisseaux choisi est le :" + tableauxVaisseaux[element] + " : " + "</p>"
-				//document.getElementById("reponse1").innerHTML = texteVaisseaux1
+			
 			
 			
 			
 				for (let element in tableauxVaisseaux[choix2]) {
 				texteVaisseaux2 += `${element} : ${tableauxVaisseaux[choix2][element]}  `
-				//let texteVaisseaux2 = "<p>Le second vaisseaux choisi est le :" + tableauxVaisseaux[element] + "</p>"
-				//document.getElementById("reponse2").innerHTML = texteVaisseaux2
+				
 				
 			}
 		
@@ -45,6 +42,7 @@ function affichage(event){
 	if (choix1 == choix2){
 		document.getElementById("texte").innerHTML = texteVaisseaux
 	}
+	
 	let differenceTaille = calculTaille (tableauxVaisseaux [choix1][elemen.length], tableauxVaisseaux[choix2][element.length])
 	document.getElementById("taille").innerHTML = "<p> la difference de taille des deux vaisseaux est de : " + differenceTaille + " m </p>"
 	document.getElementById("reponse1").innerHTML = texteVaisseaux1 + "</p>"
@@ -62,4 +60,3 @@ function calculTaille (vaisseaux1, vaisseaux2){
 	}
 }
 		
-//for (let element in tableauxVaisseaux[choix1][element]
