@@ -58,10 +58,7 @@ h1{
     color: yellow;
 	background-color: black;
 	
-	border-bottom: solid 3px #ffcb05;
-	border-left: black solid 3px;
-	border-right: black solid 3px;
-	border-top: solid 3px #ffcb05;
+
 }
 body {
 	 background-image: url("space.png");
