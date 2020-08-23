@@ -1,6 +1,6 @@
 
 html {
-    color: yellow;
+    color: #ffe80f;;
 }
 h1{
     font-size: 350%;
@@ -23,7 +23,7 @@ body {
  
 #suivant{
 	background-color: black;
-	color: yellow;
+	color: #ffe80f;
 	border-style : solid;
-	border-color : yellow; 
+	border-color : #ffe80f; 
 }

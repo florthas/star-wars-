@@ -15,8 +15,7 @@ function initPage(){
 }
 /**
 Génère l'affichage de la page star wars.html
-@param {event} event -s'effectue quand on clique sur l'event
-@return {void} nothing 
+@param {objet} event -retour de l'addEventListener lors de son déclenchement
 **/
 function affichage(event){
 	event.preventDefault()
@@ -46,6 +45,10 @@ function affichage(event){
 	
 	if (choix1 == choix2){
 		document.getElementById("texte").innerHTML = texteVaisseaux
+		
+	}
+	else {
+		document.getElementById("texte").innerHTML = null
 	}
 	
 	

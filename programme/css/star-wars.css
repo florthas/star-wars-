@@ -1,14 +1,6 @@
-@import url(//db.onlinewebfonts.com/c/af7c07faaff0d16720c25db7990579e2?family=Star+Jedi);
-@font-face {font-family: "Star Jedi";
- src: url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.eot");
- src: url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.eot?#iefix") format("embedded-opentype"),
- url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.woff2") format("woff2"),
- url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.woff") format("woff"),
- url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.ttf") format("truetype"),
- url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.svg#Star Jedi") format("svg"); 
- }
+
 html {
-    color: yellow;
+    color: #ffe80f;
 }
 
 h1{
@@ -23,18 +15,22 @@ form{
 	text-align : center;
 }
 
+body {
+	 background-image: url("../img/space.png");
+ }
+ 
 #vaisseaux1{
 	background-color: black;
-	color : yellow;
+	color : #ffe80f;
 	border-style : solid;
-	border-color : yellow;	
+	border-color : #ffe80f;	
 }
 
 #vaisseaux2{
 	background-color: black;
-	color :yellow;
+	color :#ffe80f;
 	border-style : solid;
-	border-color : yellow;
+	border-color : #ffe80f;
 }
 
 #reponse1{
@@ -43,9 +39,9 @@ form{
  
 #validation{
 	background-color: black;
-	color: yellow;
+	color: #ffe80f;
 	border-style : solid;
-	border-color : yellow; 
+	border-color : #ffe80f; 
  }
  
 #reponse2{
@@ -60,7 +56,4 @@ form{
 	 text-align: center;
  }
 
-body {
-	 background-image: url("../img/space.png");
- }
- 
+
