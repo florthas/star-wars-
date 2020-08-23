@@ -2,6 +2,7 @@
 html {
     color: #ffe80f;;
 }
+
 h1{
     font-size: 350%;
     text-align: center;
@@ -9,6 +10,7 @@ h1{
     border: 0px;
     letter-spacing: 5px;
 }
+
 body {
 	 background-image: url("../img/space.png");
  }
@@ -19,7 +21,7 @@ body {
  top : 25%;
  left :40%;
  right :40%;
- }
+}
  
 #suivant{
 	background-color: black;

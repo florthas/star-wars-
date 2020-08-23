@@ -13,10 +13,12 @@ document.addEventListener('DOMContentLoaded', initPage);
 function initPage(){ 
     document.getElementById("choixForm").addEventListener("submit", affichage); 
 }
+
 /**
 Génère l'affichage de la page star wars.html
 @param {objet} event -retour de l'addEventListener lors de son déclenchement
 **/
+
 function affichage(event){
 	event.preventDefault()
 	let choix1 = document.getElementById("vaisseaux1").value
@@ -26,20 +28,13 @@ function affichage(event){
 	let texteVaisseaux2 = "<p>Le second vaisseaux choisi est le " + choix2 + " armé de la manière suivante : <br> " 
 		
 			
-			
-			
 			for (let elemen in tableauxVaisseaux[choix1]) {
 				texteVaisseaux1 += `${elemen} : ${tableauxVaisseaux[choix1][elemen]} ` + "<br>" 
 			}
 				
 			
-			
-			
-			
-				for (let element in tableauxVaisseaux[choix2]) {
-				texteVaisseaux2 += `${element} : ${tableauxVaisseaux[choix2][element]}  ` + "<br>"
-				
-				
+			for (let element in tableauxVaisseaux[choix2]) {
+			texteVaisseaux2 += `${element} : ${tableauxVaisseaux[choix2][element]}  ` + "<br>"
 			}
 		
 	
@@ -47,6 +42,7 @@ function affichage(event){
 		document.getElementById("texte").innerHTML = texteVaisseaux
 		
 	}
+	
 	else {
 		document.getElementById("texte").innerHTML = null
 	}
@@ -65,12 +61,15 @@ Calcul la difference de taille entre les vaisseaux
 **/
 function calculTaille (vaisseaux1, vaisseaux2){
 	let diffTaille
+	
 	if (tableauxVaisseaux[vaisseaux1].taille < tableauxVaisseaux[vaisseaux2].taille ){
 		diffTaille = tableauxVaisseaux[vaisseaux2].taille - tableauxVaisseaux[vaisseaux1].taille
 	}
+	
 	else {
 		diffTaille = tableauxVaisseaux[vaisseaux1].taille - tableauxVaisseaux[vaisseaux2].taille
 	}
+	
 	return diffTaille
 }
 		
