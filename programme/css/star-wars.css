@@ -1,66 +1,66 @@
-@import url(//db.onlinewebfonts.com/c/0c724f6aa457310440cf8949c615cbd7?family=Star+Jedi);
+@import url(//db.onlinewebfonts.com/c/af7c07faaff0d16720c25db7990579e2?family=Star+Jedi);
 @font-face {font-family: "Star Jedi";
- src: url("//db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.eot");
- src: url("//db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.eot?#iefix") format("embedded-opentype"),
- url("//db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.woff2") format("woff2"),
- url("//db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.woff") format("woff"),
- url("//db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.ttf") format("truetype"),
- url("//db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.svg#Star Jedi") format("svg"); 
+ src: url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.eot");
+ src: url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.eot?#iefix") format("embedded-opentype"),
+ url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.woff2") format("woff2"),
+ url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.woff") format("woff"),
+ url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.ttf") format("truetype"),
+ url("//db.onlinewebfonts.com/t/af7c07faaff0d16720c25db7990579e2.svg#Star Jedi") format("svg"); 
  }
- html {
-    background-color: black;
-    font-family: Star Jedi;
+html {
     color: yellow;
 }
+
 h1{
     font-size: 250%;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 60px;margin-bottom: 60px;
     border: 0px;
     letter-spacing: 5px;
 }
-#vaisseaux1{
-	width:300px;
-	float:left;
-}
-	
-#vaisseaux2{
-	width:300px;
-	float:right;
- }
- #validation{
-	color: yellow;
-	background-color: black;
-	font-size: 10px;
-    height: 40px;
-    width: 40px;
-	bottom: 0px
-    display: block;
-    float: right;
- }
- #reponse1{
-	width:300px;
-	float:left;
-	
- }
- #reponse2{
-	
-	width:300px;
-	float:right;
- }
- #taille{
-	 text-align: center;
- }
- #texte{
-	 text-align: center;
- }
- input[type=submit] {
-    color: yellow;
-	background-color: black;
-	
 
+form{
+	text-align : center;
 }
+
+#vaisseaux1{
+	background-color: black;
+	color : yellow;
+	border-style : solid;
+	border-color : yellow;	
+}
+
+#vaisseaux2{
+	background-color: black;
+	color :yellow;
+	border-style : solid;
+	border-color : yellow;
+}
+
+#reponse1{
+	text-align: center;
+ }
+ 
+#validation{
+	background-color: black;
+	color: yellow;
+	border-style : solid;
+	border-color : yellow; 
+ }
+ 
+#reponse2{
+	text-align : center;
+ }
+ 
+#taille{
+	 text-align: center;
+ }
+ 
+#texte{
+	 text-align: center;
+ }
+
 body {
-	 background-image: url("space.png");
+	 background-image: url("../img/space.png");
  }
  
